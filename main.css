@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #010101;
+    margin: 0;
+}
+
+/* navbar style */
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-btn{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    color: #fff;
+}
+
+/* main section */
+
+
+.main-section{
+    background: url(./media/mainimg.jpg) no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    height:790px;
+}
+
+.main-section__static{
+    background-color: rgba(18, 18, 18, 1);
+    padding:20px 30px;
+    text-align: center;
+}
+
+/* static section */
+
+.static-btn{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    padding: 10px  25px;
+}
+
+.progress-bar{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+/* addition section */
+
+.addition-img__border{
+    top: -3rem;
+    left: -1rem;
+    width: 40rem;
+    height:36rem;
+    border: 30px solid rgba(200, 154, 252, 1);
+}
+
+/* speed section */
+
+.speed-info{
+    height: 5rem;
+    width: 100%;
+}
+
+.speed-info__item{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+
+}
+
+/* clients section */
+.section-header img{
+    transform: rotate(165deg);
+}
+
+/* software section */
+
+.software-section__header img{
+    transform: rotate(135deg);
+}
+
+.software-section__info{
+    height: 40rem;
+}
+
+.software-box{
+    justify-content: space-between;
+    height: 50rem;
+    padding-right: 3rem;
+}
+
+.software-box__two{
+    height: 50rem;
+    justify-content: space-around;
+    padding-left: 3rem;
+}
+
+/* we team section */
+
+.we-team__section{
+    padding-top: 10rem;
+}
+
+.we-team__header img{
+    transform: rotate(316deg);
+}
+
+.team-member img{
+    width: 11.875rem;
+    height: 11.875rem;
+
+}
+
+/* footer section */
+
+.footer-input{
+    background:rgba(255, 255, 255, 1);
+    opacity: 0.25;
+}
+
+.social-icon {
+    width: 3rem;
+    height:3rem;
+    border-radius: 50%;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon img{
+    width: 1.5rem;
+}
